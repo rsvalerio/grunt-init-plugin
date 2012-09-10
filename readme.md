@@ -20,7 +20,7 @@ $ grunt-init-plugin init
 
 ## Release History ##
 
-2012/09/09 - v0.1.0 - Initial release
+2012/09/09 - v0.1.0 - Preview release
 
 ## License
 Copyright (c) 2012 Rodrigo Valerio (@rsvalerio) Licensed under the MIT license.
