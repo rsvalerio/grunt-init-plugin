@@ -1,0 +1,33 @@
+{
+  "name": "grunt-init-plugin",
+  "description": "Grunt init template genarator",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rsvalerio/grunt-init-plugin",
+  "author": {
+    "name": "Rodrigo Valerio (@rsvalerio)",
+    "email": "rsvalerio@gmail.com",
+    "url": "http://blog.rsvalerio.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rsvalerio/grunt-init-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rsvalerio/grunt-init-plugin/issues"
+  },
+  "dependencies": {
+    "grunt": "0.3.15"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": ["gruntplugin"],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "main": "grunt.js",
+  "bin": "bin/grunt-init-plugin",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
