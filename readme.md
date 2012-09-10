@@ -3,7 +3,10 @@ Grunt init template generator.
 ## Getting Started ##
 
 Install this [Grunt](https://github.com/cowboy/grunt) plugin with:
+
+``` bash
 'npm install -g grunt-init-plugin'
+```
 
 ## Create a new grunt init template ##
 
