@@ -1,0 +1,34 @@
+{
+  "name": "{%= name %}",
+  "description": "{%= description %}",
+  "version": "0.1.0",
+  "homepage": "{%= homepage %}",
+  "author": {
+    "name": "{%= author_name %}",
+    "email": "{%= author_email %}",
+    "url": "{%= author_url %}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{%= repository %}"
+  },
+  "bugs": {
+    "url": "{%= bugs }%"
+  },
+  "dependencies": {
+    "grunt": "0.3.15"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": ["gruntplugin"],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "main": "grunt.js",
+  "bin": "bin/{%= name %}",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
+
