@@ -8,19 +8,15 @@ exports.warnOn = "*";
 
 exports.template = function(grunt, init, done) {
 
-  var _ = grunt.utils._; //pegando o undescore
-
+  var _ = grunt.utils._,
+      originalFiles,
+      files = {},
+      keys = [],
+      key = ''
+  ;
 
   grunt.helper('prompt', {type: 'grunt'}, [
-    // Prompt for these values.
-    // grunt.helper('prompt_for', 'name', function(value, data, done) {
-    //   // Prepend "grunt-" to default name if not already there.
-    //   data.short_name = value;
-    //   value = data.full_name = 'grunt-' + value;
-    //   // if (!/^grunt-/.test(value)) { value = 'grunt-' + value; }
-    //   done(null, value);
-    // }),
-    grunt.helper('prompt_for', 'description', 'The best sample grunt tasks ever.'),
+    grunt.helper('prompt_for', 'description'),
     grunt.helper('prompt_for', 'name'),
     grunt.helper('prompt_for', 'version'),
     grunt.helper('prompt_for', 'repository'),
@@ -41,19 +37,18 @@ exports.template = function(grunt, init, done) {
     props.keywords = ['gruntplugin'];
 
     // Files to copy (and process).
-    var originalFiles = init.filesToCopy(props), files = {};
+    originalFiles = init.filesToCopy(props);
 
     /**
      * Simple hack to enable renaming of folders
      * Support for name property only!
-     * TODO - enable the use for all other properties, in future versions
+     * TODO - enable the use for all other properties
      */
-    var keys = _.keys(originalFiles);
-    var key = '';
+    keys = _.keys(originalFiles);
 
     for(var i=0;i<keys.length;i++){
       key = keys[i].indexOf('/name/')>=0 ? keys[i].replace(/\/name\//g, '/'+props.name+'/') : keys[i];
-      files[key] = originalFiles[key];
+      files[key] = originalFiles[keys[i]];
     }
 
     // Add properly-named license files.
