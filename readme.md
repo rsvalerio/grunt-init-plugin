@@ -15,9 +15,9 @@ $ npm install -g grunt-init-plugin
 ``` bash
 $ grunt-init-plugin init
 ```
-Answer some questions
+Answer the questions
 
-#### Add some file in ####
+#### Add files to template root folder ####
 ``` bash
 $ /tasks/init/[plugin-name]/root
 ```
@@ -34,8 +34,9 @@ $ [plugin-name] init
 
 ## Release History ##
 
-2012/09/09 - v0.1.0 - Preview release
+2012/09/13 - v0.1.0 - Initial release
 
 
 ## License
-Copyright (c) 2012 Rodrigo Valerio (@rsvalerio) Licensed under the MIT license.
+Copyright (c) 2012 Rodrigo Valerio [@rsvalerio](http://twitter.com/rsvalerio)
+Licensed under the MIT license.
