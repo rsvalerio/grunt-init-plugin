@@ -30,7 +30,8 @@ module.exports = function(grunt) {
         boss: true,
         eqnull: true,
         node: true,
-        es5: true
+        es5: true,
+        globalstrict: true
       },
       globals: {}
     }
