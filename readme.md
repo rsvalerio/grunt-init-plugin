@@ -46,6 +46,7 @@ Open an issue or contact me
 ## Release History ##
 
 2012/09/13 - v0.1.1 - Added globalstrict: true int grunt.js template file. Getting Started updated
+
 2012/09/13 - v0.1.0 - Initial release
 
 
