@@ -1,7 +1,7 @@
 {
   "name": "grunt-init-plugin",
   "description": "Grunt plugin to generate grunt init templates",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/rsvalerio/grunt-init-plugin",
   "author": {
     "name": "Rodrigo Valerio (@rsvalerio)",
