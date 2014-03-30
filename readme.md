@@ -1,3 +1,6 @@
+#### This project is no longer supported, please consider using [Yeoman](http://yeoman.io)
+#### Tell me, if you see any reason to continue with this project, thanks! 
+***
 Grunt init template generator.
 
 Boilerplate to generate grunt init plugins that will generate grunt projects.
@@ -53,3 +56,7 @@ Open an issue or contact me
 ## License
 Copyright (c) 2012 Rodrigo Valerio [@rsvalerio](http://twitter.com/rsvalerio)
 Licensed under the MIT license.
+
+***
+#### This project is no longer supported, please consider using [Yeoman](http://yeoman.io)
+#### Tell me, if you see any reason to continue with this project, thanks! 
